@@ -10,7 +10,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 2px;
     font-variant: small-caps;
-    color: peru;
+    color: sandybrown;
     text-align: center;
 }
 
@@ -18,9 +18,18 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
     font-variant: small-caps;
-    color: sandybrown;
+    color: peru;
     text-align: center;
     font-size: 1.5em;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    color: saddlebrown;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 body{
