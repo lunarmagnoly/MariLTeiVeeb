@@ -1,0 +1,40 @@
+/*pilti stiil*/
+img{
+    border: 1px solid blueviolet;
+    border-radius: 60px;
+    width: 30%;
+    padding: 2%;
+}
+/* pealkirja stiil */
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    color: peru;
+    text-align: center;
+}
+
+body{
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    border: 1px solid coral;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 0;
+}
+
+ul > li {
+    text-align: center;
+    list-style-position: inside;
+}
+ul > li::before {
+    content: "☑"; padding-right: 10px;
+}
