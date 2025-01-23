@@ -1,8 +1,8 @@
 /*pilti stiil*/
 img{
-    border: 1px solid blueviolet;
+    border: 2px solid blueviolet;
     border-radius: 60px;
-    width: 30%;
+    width: 60%;
     padding: 2%;
 }
 /* pealkirja stiil */
@@ -37,12 +37,13 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
+
 }
 
 ul {
     list-style-type: none;
-    border: 1px solid coral;
-    width: 40%;
+    border: 2px solid coral;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -56,3 +57,35 @@ ul > li {
 ul > li::before {
     content: "☑"; padding-right: 10px;
 }
+
+#issue1 ul {
+    list-style-type: none;
+    border: none;
+    margin-top: 50px;
+    text-align: justify;
+    padding-left: 50px;
+    position: relative;
+}
+
+#issue1 p {
+
+
+    text-align: justify;
+    width: 50%;
+    margin: 10px 100px 10px 100px;
+}
+
+#issue1 ul > li {
+    text-align: justify;
+    width: 80%;
+    list-style-position: outside;
+    margin: 10px 100px 10px 100px;
+    position: relative;
+}
+#issue1 ul > li::before {
+    content: "☑";
+    padding-right: 30px;
+    position: absolute;
+    left: -50px;
+}
+
