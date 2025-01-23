@@ -47,7 +47,7 @@ ul {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    text-align: center;
     padding-left: 0;
 }
 
@@ -90,3 +90,52 @@ ul > li::before {
     left: -50px;
 }
 
+#issue2 ul {
+    list-style-type: none;
+    border: none;
+    margin-top: 50px;
+    text-align: justify;
+    padding-left: 50px;
+    position: relative;
+}
+
+#issue2 ul > li {
+    text-align: left;
+    width: 100%;
+    list-style-position: outside;
+    margin: 10px 50px 10px 50px;
+    position: relative;
+}
+#issue2 ul > li::before {
+    content: "☑";
+    padding-right: 30px;
+    position: absolute;
+    left: -50px;
+}
+
+#issue2 img {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-left: 100px;
+    border-radius: unset;
+}
+
+#issue2 p {
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.git-command {
+    text-align: center;
+    width: 10%;
+    margin: auto;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 1px;
+
+}
